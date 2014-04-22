@@ -1,0 +1,20 @@
+public class JavaApplication2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        int bil = 5;
+        int jml = 0;
+        for (int i=0; i<=bil;i++){
+            int x = bil;
+            int y = bil-1;
+            int hasil = x*y;
+            jml = jml+hasil;
+        }
+        System.out.println("hasil = "+jml);
+        
+    }
+    
+}
