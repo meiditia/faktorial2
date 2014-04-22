@@ -12,7 +12,13 @@ public class JavaApplication2 {
             int y = bil-1;
             int hasil = x*y;
             jml = jml+hasil;
+            
         }
+        
+        for (int i=bil; i==0; i++){
+            System.out.println(i);
+        }
+        
         System.out.println("hasil = "+jml);
         
     }
